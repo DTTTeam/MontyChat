@@ -1,6 +1,6 @@
 ﻿// Function to navigate back to the phone list
 function goBack() {
-    window.location.href = 'phonelist.html';
+    window.location.href = 'https://dttteam.github.io/MontyChat/PhoneList.html';
 }
 
 // Function to get URL parameters
