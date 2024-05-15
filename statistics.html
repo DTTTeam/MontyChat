@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics</title>
+    <link rel="stylesheet" type="text/css" href="https://dttteam.github.io/MontyChatWeb/statistics.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://dttteam.github.io/MontyChatWeb/statistics.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1 class="colorfulTitle">
+                <span>S</span><span>t</span><span>a</span><span>t</span><span>i</span><span>s</span><span>t</span><span>i</span><span>c</span><span>s</span>
+            </h1>
+        </div>
+
+        <div id="statsContainer">
+            <div id="totalNumbers" class="stat-item total-numbers">Total Phone Numbers: 0</div>
+            <div id="sentNumbers" class="stat-item sent-numbers">Sent: 0</div>
+            <div id="failedNumbers" class="stat-item failed-numbers">Failed: 0</div>
+            <canvas id="statisticsGraph"></canvas>
+            <div id="totalCost" class="stat-item total-cost">Total Cost: $0.00</div>
+        </div>
+        <button onclick="goBack()" class="back-button">Back to Phone List</button>
+    </div>
+</body>
+</html>

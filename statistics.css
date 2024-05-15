@@ -1,0 +1,97 @@
+﻿body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title-container {
+    margin-bottom: 20px;
+}
+
+.colorfulTitle span {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+
+
+.image-container {
+    margin: 40px 0 20px 0; /* Adjusted margin-top for better spacing */
+}
+
+.statistics-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+#statsContainer {
+    margin-top: 20px;
+}
+
+.stat-item {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e9f5ee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-numbers {
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+.sent-numbers {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.failed-numbers {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.total-cost {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.back-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #25D366;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+    .back-button:hover {
+        background-color: #128C7E;
+    }
+
+#statisticsGraph {
+    margin: 20px 0;
+    width: 100%;
+    height: 400px;
+}

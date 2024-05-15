@@ -1,0 +1,110 @@
+﻿body {
+    background-color: white; /* Set background color to white */
+    font-family: Arial, sans-serif; /* Use Arial or any preferred sans-serif font */
+}
+
+.login-container {
+    width: 300px; /* Set width for login container */
+    margin: 100px auto; /* Center the container horizontally */
+    text-align: center; /* Center align text */
+}
+
+.logo-container img {
+    width: 100px; /* Set width for logo */
+    margin-bottom: 20px; /* Add space below logo */
+}
+
+label {
+    display: block; /* Display labels as block */
+    margin-bottom: 10px; /* Add space below labels */
+}
+
+input[type="password"] {
+    width: 80%; /* Set input width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add space below input */
+    border-radius: 5px; /* Add border radius */
+    border: 1px solid #ccc; /* Add border */
+}
+
+button {
+    display: inline-block; /* Set display to inline-block */
+    padding: 12px 20px; /* Adjust padding to control button size */
+    background-color: #1877f2; /* Set background color for button */
+    color: white; /* Set text color for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add smooth transition for background color */
+    font-size: 14px; /* Set font size */
+}
+
+    button:hover {
+        background-color: #0e5a9b; /* Change background color on hover */
+    }
+.notification {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f44336; /* Red color */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+.show {
+    display: block;
+}
+.login-container {
+    animation: colorChange 10s infinite;
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: #85C1E9;
+    }
+
+    33% {
+        background-color: #76D7C4;
+    }
+
+    66% {
+        background-color: #F7DC6F;
+    }
+
+    100% {
+        background-color: #85C1E9;
+    }
+}
+.spinner {
+    border: 6px solid rgba(0,0,0,0.1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-left-color: #09c;
+    animation: spin 1s ease-in-out infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
