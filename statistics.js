@@ -17,7 +17,7 @@ function getUrlParams() {
     return params;
 }
 
-/
+
 const params = getUrlParams();
 console.log('Received parameters:', params); // Debug log for received parameters
 
