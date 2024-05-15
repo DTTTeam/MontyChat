@@ -336,7 +336,7 @@ async function sendMessages() {
                 console.log('Response Data:', responseData);
 
                 if (responseData.messages && responseData.messages.length > 0) {
-                    data[rowIndex][statusIndex] = `Delivered`;
+                    data[rowIndex][statusIndex] = `Sent`;
                     sentCount++;
                 } else {
                     data[rowIndex][statusIndex] = 'Failed';
