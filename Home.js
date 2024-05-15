@@ -32,7 +32,7 @@ function callApi(secretKey) {
             if (data && data.length > 0) {
                 localStorage.setItem('authToken', secretKey);
                 sessionStorage.setItem('phoneData', JSON.stringify(data));
-                window.location.href = "https://dttteam.github.io/MontyChat/Phonelist.html";
+                window.location.href = "https://dttteam.github.io/MontyChat/PhoneList.html";
             } else {
                 showNotification('No valid data found.', "error");
             }
