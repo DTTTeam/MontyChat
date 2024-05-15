@@ -558,7 +558,7 @@ function openTab(evt, tabName) {
 
         console.log(`Navigating to statistics.html with data: total=${totalNumbers}, sent=${sentNumbers}, failed=${failedNumbers}, cost=${totalCost}`);
 
-        window.location.href = `https://dttteam.github.io/MontyChatWeb/statistics.html?total=${totalNumbers}&sent=${sentNumbers}&failed=${failedNumbers}&cost=${totalCost}`;
+        window.location.href = `https://dttteam.github.io/MontyChat//statistics.html?total=${totalNumbers}&sent=${sentNumbers}&failed=${failedNumbers}&cost=${totalCost}`;
     }
 }
 
