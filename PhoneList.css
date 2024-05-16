@@ -14,7 +14,7 @@
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -23,8 +23,8 @@
 }
 
 .logo {
-    width: 100px;
-    margin-bottom: 10px;
+    width: 80px;
+    margin-bottom: 20px;
 }
 
 .form-container {
@@ -97,11 +97,6 @@
     transform: translate(-50%, -50%);
     font-size: 14px;
     color: #25D366;
-}
-
-.component-container {
-    margin-top: 20px;
-    text-align: left;
 }
 
 .template-section {
@@ -288,13 +283,13 @@
     border-radius: 25px;
     position: relative;
     margin-top: 10px;
-    height: 40px; /* Adjusted height */
+    height: 40px;
     overflow: hidden;
 }
 
 .progress-bar-fill {
     height: 100%;
-    width: 0%; /* Adjust this width dynamically with JS */
+    width: 0%;
     background-color: #4caf50;
     border-radius: 25px;
     display: flex;
@@ -311,9 +306,9 @@
     padding: 5px 10px;
     border-radius: 12px;
     position: absolute;
-    right: 10px; /* Adjust the position of the text inside the bar */
+    right: 10px;
 }
 
 .tab-container {
-    display: none; /* Initially hide the tab buttons */
+    display: none;
 }
